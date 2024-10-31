@@ -533,6 +533,7 @@ li:first-child .menu-link::after {
 }
 
 .modal-label {
+  display: block;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -589,6 +590,7 @@ textarea.modal-input {
   padding: 8px 16px;
   resize: none;
   height: 120px;
+  display: block;
 }
 
 .modal-label.accept {
