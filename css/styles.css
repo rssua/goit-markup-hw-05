@@ -531,14 +531,10 @@ li:first-child .menu-link::after {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-close:hover {
-  border: none;
-  fill: #fff;
-}
-
+.modal-close:hover,
 .modal-close:focus {
-  border: none;
   background-color: #404bbf;
+  border: none;
   fill: #fff;
 }
 
@@ -654,7 +650,7 @@ textarea.modal-input {
 .modal-checkbox:checked + .accept .modal-mark {
   fill: #f4f4fd;
   background-color: #404bbf;
-  border: 1px solid #404bbf;
+  border: none;
 }
 
 .modal-accept-link {
